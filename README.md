@@ -5,8 +5,8 @@ properties to understand pricing, location, property characteristics,
 school factors, and the features associated with higher listing prices.
 
 ### 🔗 Quick Links
-📊 View Interactive Dashboard
-https://app.powerbi.com/view?r=eyJrIjoiMzc0MDI4Y2MtNzE0Ny00NDg3LTljNzItZTkyZmI0MWZlYzJlIiwidCI6IjhkMzFkMTQ0LWI3ZjMtNDY2OC1iOGEwLTZhNzRmNWU0Y2Q4MSJ9
+📊 [View Interactive Dashboard](https://app.powerbi.com/view?r=eyJrIjoiMzc0MDI4Y2MtNzE0Ny00NDg3LTljNzItZTkyZmI0MWZlYzJlIiwidCI6IjhkMzFkMTQ0LWI3ZjMtNDY2OC1iOGEwLTZhNzRmNWU0Y2Q4MSJ9)
+
 
 ## 📌 Project Overview
 
