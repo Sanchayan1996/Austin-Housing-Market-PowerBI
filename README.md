@@ -1,4 +1,11 @@
-# 🏠 Austin Housing Market Analysis | Power BI
+# 🏠 Austin Housing Market Analysis
+
+An interactive Power BI dashboard exploring 15,171 Austin-area
+properties to understand pricing, location, property characteristics,
+school factors, and the features associated with higher listing prices.
+
+### 🔗 Quick Links
+📊 View Interactive Dashboard | 
 
 ## 📌 Project Overview
 
@@ -114,193 +121,67 @@ The 2021 records show a higher median price of approximately **$520K**, but this
 
 # 4. Insights Deep Dive
 
-## 🏘️ 4.1 Single-Family Homes Dominate the Dataset
+### 🏘️ Single-Family Homes Dominate the Market
 
-**14,241 of the 15,171 properties are single-family homes**, representing approximately **94% of all properties**.
+**14,241 of 15,171 properties (94%)** are single-family homes, making them by far the largest property segment in the dataset.
 
-The next most common property type is condominium, with **470 properties**, followed by townhouses with **174 properties**.
-
-| Property Type | Number of Properties |
-|---|---:|
-| Single Family | **14,241** |
-| Condo | **470** |
-| Townhouse | **174** |
-| Multiple Occupancy | **96** |
-| Vacant Land | **83** |
-| Residential | **37** |
-| Apartment | **37** |
-| Mobile / Manufactured | **17** |
-| MultiFamily | **10** |
-| Other | **6** |
-
-**Business takeaway:**  
-The dataset primarily represents the single-family housing market. Conclusions about less common property types should therefore be treated cautiously because their sample sizes are considerably smaller.
+**Takeaway:** The analysis primarily reflects Austin's single-family housing segment.
 
 ---
 
-## 💰 4.2 The Median Gives a Better Picture of the Typical Property Price
+### 💰 Median Price Better Represents a Typical Property
 
-The **median property price is $405K**, compared with an **average price of approximately $512.8K**.
+The **median home price is $405K**, compared with an average of **$512.8K**.
 
-That is a difference of approximately **$108K**.
-
-The dataset also contains properties ranging from approximately **$5.5K to $13.5M**, demonstrating the wide range of prices represented.
-
-**Business takeaway:**  
-A relatively small number of expensive properties pull the average upward. For understanding the price of a typical property in this dataset, the **median is therefore more informative than the mean**.
+**Takeaway:** High-value properties pull the average upward, making the median a more useful benchmark for the typical property.
 
 ---
 
-## 📈 4.3 Property Prices Increased Across the Main Observation Period
+### 📈 Property Prices Increased Over Time
 
-The median property price increased from approximately:
+Median prices increased from approximately **$385K in 2018 to $434.9K in 2020**, an increase of roughly **13%**.
 
-**$385K in 2018 → $395K in 2019 → $434.9K in 2020**
-
-This represents an increase of approximately **13% between 2018 and 2020**.
-
-The dataset shows a further increase to approximately **$520K in 2021**, although the 2021 sample contains only 83 records.
-
-**Business takeaway:**  
-The data indicates upward price movement during the main 2018–2020 observation period. The apparent 2021 increase should not be directly compared with previous years without accounting for the much smaller sample.
+**Takeaway:** The dataset shows an upward price trend across the main 2018–2020 observation period.
 
 ---
 
-## 🛁 4.4 Spa Availability Shows One of the Largest Price Differences
+### 🏡 Property Features Are Associated With Higher Prices
 
-Properties with a spa have a median price of approximately **$575K**, compared with approximately **$399K** for properties without one.
+Homes with certain features generally have higher median prices. The largest differences are visible for properties with **spas, views, and garages**.
 
-That represents a difference of roughly **$176K**, or about **44%** relative to the median for homes without a spa.
+For example, homes with a spa have a median price of approximately **$575K**, compared with around **$399K** for homes without one.
 
-**Business takeaway:**  
-Spa availability is associated with substantially higher-priced properties in this dataset. However, this should be interpreted as an **association rather than proof that adding a spa causes a property to increase in value**.
-
----
-
-## 🌄 4.5 Properties With Views Are Associated With Higher Prices
-
-Properties recorded as having a view have a median price of approximately **$475K**, compared with approximately **$395K** for properties without a view.
-
-This represents a difference of approximately **$80K**, or roughly **20%**.
-
-**Business takeaway:**  
-Properties with views tend to sit in a higher price range, suggesting that location and surrounding environment may contribute to the premium associated with these properties.
+**Takeaway:** Amenities can help distinguish higher-priced segments of the housing market.
 
 ---
 
-## 🚗 4.6 Garage Availability Is Associated With a Price Premium
+### 📐 Larger Properties Are Associated With Higher Prices
 
-Properties with garages have a median price of approximately **$425K**, compared with approximately **$385K** for properties without garages.
+Power BI's Key Influencers analysis highlights **living area and lot size** among the strongest characteristics associated with higher listing prices.
 
-This represents a difference of approximately **$40K**.
+Properties with living areas above approximately **3,392 sq ft** and lot sizes above approximately **21,780 sq ft** are associated with substantially higher listing prices.
 
-**Business takeaway:**  
-Garage availability is associated with higher-priced properties, although other factors such as property size, location and property type may also contribute to this difference.
-
----
-
-## ❄️ 4.7 Cooling and Heating Are Common Across the Housing Stock
-
-Approximately **98% of properties have cooling**, while around **99% have heating**.
-
-The median price for properties with cooling is approximately **$405K**, compared with approximately **$360K** for properties without cooling.
-
-Properties with heating have a median price of approximately **$405K**, compared with approximately **$329K** among properties without heating.
-
-**Business takeaway:**  
-Cooling and heating are close to standard features in this dataset. Because properties without these features are relatively uncommon, comparisons between the two groups should be interpreted carefully.
+**Takeaway:** Property size is an important factor when comparing different segments of the market.
 
 ---
 
-## 📐 4.8 Property Size Is a Major Indicator of Higher Listing Prices
+### 📍 Location & Schools Add Market Context
 
-The Power BI Key Influencers analysis identifies property size as one of the strongest characteristics associated with higher listing prices.
+Property distribution varies across the Austin area, while nearby school characteristics also differ between locations.
 
-When the **median lot size exceeds approximately 21,780 sq ft**, the analysis associates this condition with an average listed-price increase of approximately **$720.1K**.
+The dashboard allows users to explore properties by **price, size, location, school rating, school size, and students per teacher**.
 
-Similarly, when **median living area exceeds approximately 3,392 sq ft**, the analysis associates it with an average listed-price increase of approximately **$655.9K**.
-
-Other characteristics highlighted by the model include:
-
-- **2–3 stories:** +$455.4K
-- **2–3 parking spaces:** +$310.1K
-- **Year built after 2017:** +$308.8K
-- **Higher bathroom count:** +$179.1K
-
-**Business takeaway:**  
-Larger homes and larger lots are strongly associated with the higher end of the market. Property capacity and newer construction also appear frequently among higher-priced listings.
-
-> **Note:** Power BI Key Influencers identifies statistical relationships within the dataset. These values should not be interpreted as causal effects.
-
----
-
-## 📍 4.9 Location Plays an Important Role in Market Exploration
-
-The geographical analysis shows that properties are distributed across Austin and surrounding areas rather than being evenly concentrated.
-
-The interactive location dashboard allows users to filter the market by:
-
-- Home price
-- Living area
-- Lot size
-- Year built
-
-This makes it possible to isolate specific housing segments and immediately see where those properties are concentrated geographically.
-
-**Business takeaway:**  
-Housing analysis should consider location together with price and property characteristics rather than treating Austin as a single uniform housing market.
-
----
-
-## 🎓 4.10 School Characteristics Vary Across Locations
-
-The properties in the dataset are linked with information about nearby schools.
-
-Across the dataset:
-
-- **Average School Rating:** 5.85
-- **Average School Size:** approximately 1.24K students
-- **Median Students per Teacher:** 14.8
-
-The dashboard allows school characteristics to be analysed geographically using school rating, school size and students-per-teacher measures.
-
-**Business takeaway:**  
-The school dashboard provides additional neighbourhood context that can be considered alongside property price and location when comparing areas.
+**Takeaway:** Property characteristics should be considered together with geographical and neighbourhood context.
 
 ---
 
 # 5. Recommendations
 
-Based on the analysis, the following considerations may be useful for housing-market exploration and decision-making:
+Based on the analysis:
 
-### 1. Use Median Price as the Primary Market Benchmark
+- **Use median price as the main market benchmark** because extreme property values can distort averages.
+- **Compare property size alongside price**, particularly living area and lot size.
+- **Consider features such as spas, views, and garages** when comparing similar properties.
+- **Combine location and property characteristics** rather than evaluating price in isolation.
+- Use **school information as additional neighbourhood context** when comparing different areas.
 
-Because the dataset contains several extremely expensive properties, the average price is noticeably higher than the median.
-
-For general market comparisons, **median price should therefore be prioritised over average price**.
-
-### 2. Evaluate Property Size Alongside Price
-
-Living area and lot size show strong relationships with higher listing prices.
-
-Buyers, analysts and investors should therefore compare properties using measures such as **price per square foot and property size**, rather than relying on total price alone.
-
-### 3. Consider Property Features as Part of Market Segmentation
-
-Properties with features such as **spas, views and garages** show higher median prices in this dataset.
-
-These characteristics can be used to segment the market into more comparable groups when evaluating properties.
-
-### 4. Combine Location and Property Characteristics
-
-Location should not be evaluated independently.
-
-Filtering simultaneously by **price, living area, lot size and construction year** can provide a more useful picture of where particular property segments are concentrated.
-
-### 5. Treat School Information as Additional Location Context
-
-School ratings, school size and student-to-teacher measures can provide additional context when comparing geographical areas.
-
-They should be considered alongside other neighbourhood and property characteristics rather than as standalone indicators of property value.
-
----
